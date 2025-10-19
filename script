@@ -1,0 +1,12 @@
+local function script()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/xysfhub/StealABrainrot/refs/heads/main/main'))()
+end
+
+local function loadui()
+    loadstring(game:HttpGet('https://pastefy.app/GK9jBNGq/raw'))()
+end
+
+task.spawn(script)
+
+task.wait(3)
+task.spawn(loadui)
